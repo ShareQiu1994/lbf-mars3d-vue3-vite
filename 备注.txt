@@ -1,0 +1,32 @@
+
+html  */
+
+publi资源(不编译)
+<img src="/img/basemaps/arcgis.png" alt="" />
+
+assets资源(编译)
+<img src="@/assets/arcgis.png" alt="" />
+
+/**********************************************/
+
+CSS */
+
+public资源(编译)
+.aaa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 400px;
+  background: url('public/img/basemaps/arcgis.png');
+}
+
+assets资源(编译)
+.aaa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 400px;
+  background: url('@/assets/arcgis.png');
+}
