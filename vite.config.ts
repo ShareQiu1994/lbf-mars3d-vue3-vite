@@ -1,6 +1,6 @@
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
-import mars3dCesium from "vite-plugin-mars3d"
+import { mars3dPlugin } from "vite-plugin-mars3d"
 const path = require('path')
 
 
@@ -14,7 +14,11 @@ export default ({ mode }) => {
       },
       plugins: [
         vue(),
-        mars3dCesium(),
+        mars3dPlugin(),
       ],
       }
   )}
+
+
+
+  
